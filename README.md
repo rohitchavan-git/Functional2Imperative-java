@@ -14,7 +14,7 @@
       * [**Find First with default Value**](#find-first-with-default-value)
       * [**Collectors.joining(delimiter)**](#collectorsjoiningdelimiter)
       * [**Count**](#count)
-      * [**takeWhile**](#takewhile)
+      * [**takeWhile**](#takewhile)˙
 <!-- TOC -->
 
 Java 8 has many new features and enhancements . In this repository we are going to learn Java 8 features but in diferent approach like 
