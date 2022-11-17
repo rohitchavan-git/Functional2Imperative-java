@@ -3,7 +3,7 @@
 <!-- TOC -->
 * [Learn Java 8 By Converting Functional Style Code Into Imperative](#learn-java-8-by-converting-functional-style-code-into-imperative)
   * [Before Start](#before-start)
-  * [Notes](#notes)
+  * [Quick Look](#quick-look)
       * [**Filter** is Logically Equal to  **If Condition**](#filter-is-logically-equal-to-if-condition)
       * [**The Map** is Logically Equal to **get + add to the resultant Collection**](#the-map-is-logically-equal-to-get--add-to-the-resultant-collection)
       * [Some observations while working with **Collectors.groupingBy()**](#some-observations-while-working-with-collectorsgroupingby)
@@ -14,7 +14,9 @@
       * [**Collectors.joining(delimiter)**](#collectorsjoiningdelimiter)
       * [**Count**](#count)
       * [**takeWhile**](#takewhile)
+  * [Notes / Observation](#notes--observation)
 <!-- TOC -->
+
 
 
 Java 8 has many new features and enhancements . In this repository we are going to learn Java 8 features but in diferent approach like 
@@ -27,7 +29,7 @@ Java 8 has many new features and enhancements . In this repository we are going 
 * [Real Time Use Cases java 11 ](https://github.com/rohitchavan-git/Real-Time-Use-of-java-11-Stream-API)
 * [Optional In Use](https://github.com/rohitchavan-git/OptionalInJava)
 
-## Notes
+## Quick Look
 #### **Filter** is Logically Equal to  **If Condition**
 ![](src/main/resources/filterAsIf.png)
 
@@ -71,4 +73,7 @@ Java 8 has many new features and enhancements . In this repository we are going 
 ####  **takeWhile**
    ![](src/main/resources/takeWhile.png)
    
+## Notes / Observation
 
+* [Java 8 I2F Notes ](https://notesdocs.app/share/cbA5UGGquaySPD4bSjSWy5yUqfHZAlO3llCW-Java-8-I2F-)
+* [Why functional Style Important](https://notesdocs.app/share/56qbTdjmbkjcTwHCEvEWVlHTUlMTuLhgVyOL-Why-functional-Style-is-Important)

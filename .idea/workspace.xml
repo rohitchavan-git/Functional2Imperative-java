@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e232260f-6aa9-45e4-9a00-1e502776dd95" name="Changes" comment="added start before session in readme">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MapAsGetToResultantCollection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/anyMatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/filterAsIf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/findFirstWithDefaultValue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpBy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCollectToMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCollectToSet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCounting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByFiltering.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByMapping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapWithDuplicateKeyProtection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapWithoutDuplicateKeyProtection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sortCollection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rohit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rohit/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="e232260f-6aa9-45e4-9a00-1e502776dd95" name="Changes" comment="added notes in readme file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +94,7 @@
       <workItem from="1668621855798" duration="1459000" />
       <workItem from="1668624102018" duration="526000" />
       <workItem from="1668624636048" duration="972000" />
-      <workItem from="1668665778416" duration="949000" />
+      <workItem from="1668665778416" duration="3014000" />
     </task>
     <task id="LOCAL-00001" summary="added functional and imperative approach">
       <created>1668624228352</created>
@@ -141,7 +124,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668625168077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated readme file regarding all the findings of this repository">
+      <created>1668666998729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668666998730</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added notes in readme file">
+      <created>1668668621319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668668621319</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added notes in readme file">
+      <created>1668668790486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668668790486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added notes in readme file">
+      <created>1668669087537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668669087537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +187,8 @@
     <MESSAGE value="added functional and imperative approach" />
     <MESSAGE value="updated readme file remove temp images" />
     <MESSAGE value="added start before session in readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added start before session in readme" />
+    <MESSAGE value="updated readme file regarding all the findings of this repository" />
+    <MESSAGE value="added notes in readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added notes in readme file" />
   </component>
 </project>
