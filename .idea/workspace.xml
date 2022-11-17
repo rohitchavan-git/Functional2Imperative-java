@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e232260f-6aa9-45e4-9a00-1e502776dd95" name="Changes" comment="updated readme file remove temp images">
+    <list default="true" id="e232260f-6aa9-45e4-9a00-1e502776dd95" name="Changes" comment="added start before session in readme">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MapAsGetToResultantCollection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/anyMatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/filterAsIf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/findFirstWithDefaultValue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpBy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCollectToMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCollectToSet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByCounting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByFiltering.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/grpByMapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapWithDuplicateKeyProtection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapWithoutDuplicateKeyProtection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sortCollection.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rohit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rohit/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +71,9 @@
       <recent name="org.rohit.dto" />
       <recent name="org.rohit.entity" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="org.rohit.Application" />
     </key>
@@ -93,7 +110,8 @@
       <workItem from="1668509300716" duration="12229000" />
       <workItem from="1668621855798" duration="1459000" />
       <workItem from="1668624102018" duration="526000" />
-      <workItem from="1668624636048" duration="299000" />
+      <workItem from="1668624636048" duration="972000" />
+      <workItem from="1668665778416" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="added functional and imperative approach">
       <created>1668624228352</created>
@@ -116,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668624621442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added start before session in readme">
+      <created>1668625168077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668625168077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +175,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="added functional and imperative approach" />
     <MESSAGE value="updated readme file remove temp images" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme file remove temp images" />
+    <MESSAGE value="added start before session in readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added start before session in readme" />
   </component>
 </project>

@@ -83,7 +83,8 @@ public class Application {
 
         Map<String, Map<String, Person>> stringMapMap1 = new HashMap<>();
         for (Person person : allPerson) {
-            if (stringMapMap1.computeIfAbsent(person.getFname(), k -> new HashMap<>())
+            if (stringMapMap1.computeIfAbsent(person.getFname()
+                            , k -> new HashMap<>())
                     .put(person.getFname(), person) != null) {
                 throw new IllegalStateException("Duplicate key");
             }
@@ -96,13 +97,15 @@ public class Application {
 
         Map<String, List<Person>> stringListMap = allPerson.stream()
                 .collect(groupingBy(Person::getFname,
-                        filtering(person -> person.getFname().length() > 5, toList())));
+                        filtering(person -> person.getFname().length() > 5
+                                , toList())));
 
         System.out.println(stringListMap);
 
         Map<String, List<Person>> stringListMap1 = new HashMap<>();
         for (Person person : allPerson) {
-            List<Person> people = stringListMap1.computeIfAbsent(person.getFname(), k -> new ArrayList<>());
+            List<Person> people = stringListMap1
+                    .computeIfAbsent(person.getFname(), k -> new ArrayList<>());
             if (person.getFname().length()>5) {
                 people.add(person);
             }
@@ -169,7 +172,8 @@ public class Application {
 
     private static void sortAndCollect(List<Person> allPerson) {
         List<Person> sortedByFnameAndLname = allPerson.stream()
-                .sorted(Comparator.comparing(Person::getFname).thenComparing(Person::getLname))
+                .sorted(Comparator.comparing(Person::getFname)
+                        .thenComparing(Person::getLname))
                 .collect(toList());
 
         List<Person> sortedByFnameAndLname2 = new ArrayList<>();
@@ -186,7 +190,8 @@ public class Application {
 
         Map<String, List<String>> stringListMap2 = new HashMap<>();
         for (Person person : allPerson) {
-            if (stringListMap2.put(person.getFname(), person.getPhoneNumber()) != null) {
+            if (stringListMap2.
+                    put(person.getFname(), person.getPhoneNumber()) != null) {
                 throw new IllegalStateException("Duplicate key");
             }
         }
@@ -224,7 +229,8 @@ public class Application {
 
         Map<String, Long> grpByFnameAndCounting = new HashMap<>();
         for (Person person : allPerson) {
-            grpByFnameAndCounting.merge(person.getFname(), 1L, Long::sum);
+            grpByFnameAndCounting.merge(person.getFname(),
+                    1L, Long::sum);
         }
     }
 
@@ -235,7 +241,8 @@ public class Application {
 
         Map<String, Set<Person>> stringSetMap1 = new HashMap<>();
         for (Person person : allPerson) {
-            stringSetMap1.computeIfAbsent(person.getFname(), k -> new HashSet<>())
+            stringSetMap1.computeIfAbsent(person.getFname(),
+                            k -> new HashSet<>())
                     .add(person);
         }
     }
