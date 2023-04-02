@@ -1,57 +1,67 @@
 package org.rohit;
 
+import org.rohit.dto.PersonRepo;
 import org.rohit.entity.Address;
 import org.rohit.entity.Person;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.StringJoiner;
+import java.util.*;
 import java.util.function.Function;
 
 import static java.util.Optional.of;
-import static java.util.stream.Collectors.counting;
-import static java.util.stream.Collectors.filtering;
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.mapping;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
+import static java.util.stream.Collectors.*;
 
 public class Application {
 
 
+    private static final String ROHIT = "ROHIT";
+
     public static void main(String[] args) {
 
-        String idea = "welcome to intellij idea tips session ";
+        List<Person> allPerson = PersonRepo.getPeples();
+
+        getAll(allPerson);
+        findByName(allPerson , ROHIT);
+
+        groupByDP(allPerson);
+
+        grpByCollectIntoSet(allPerson);
+
+        grpByCounting(allPerson);
+
+        grpByMappingCollect(allPerson);
+
+        grpByFilterCollect(allPerson);
+
+        grpByMap(allPerson);
+
+        mapWithDuplicateKeyProtection(allPerson);
+
+        mapWithoutDuplicateKeyProtection(allPerson);
 
 
-        List<Integer> integers = takeWhile();
+        sortAndCollect(allPerson);
 
-        System.out.println(integers);
+        anyMatch(allPerson);
 
+
+        findFirstWithDeafultValue(allPerson);
+
+        stringJoinning(allPerson);
+
+
+        count(allPerson);
+
+        takeWhile();
 
     }
 
-    private static void stringHolder(String name) {
-        throw new UnsupportedOperationException("method not implemented");
-    }
-    private static void stringDemo(String name) {
-        throw new UnsupportedOperationException("method not implemented");
-    }
-
-    private static List<Integer> takeWhile() {
+    private static void takeWhile() {
         List<Integer> oneToTen = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         List<Integer> takeUpto5 = oneToTen.stream()
                 .takeWhile(i -> i != 5)
                 .collect(toList());
-        System.out.println(takeUpto5);
 
+        System.out.println(takeUpto5);
 
         List<Integer> takeUpto05 = new ArrayList<>();
         for (Integer i : oneToTen) {
@@ -61,10 +71,8 @@ public class Application {
             takeUpto05.add(i);
         }
 
-        return takeUpto05;
+        System.out.println(takeUpto05);
     }
-
-    private static final String ROHIT = "ROHIT";
 
     private static void grpByMap(List<Person> allPerson) {
         Map<String, Map<String, Person>> stringMapMap = allPerson.stream()
