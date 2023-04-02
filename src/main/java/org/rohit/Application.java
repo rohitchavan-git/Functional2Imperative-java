@@ -33,8 +33,6 @@ public class Application {
 
         List<Integer> integers = takeWhile();
 
-        System.out.println("demo");
-
         System.out.println(integers);
 
 
