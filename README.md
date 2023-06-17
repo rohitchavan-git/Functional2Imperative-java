@@ -19,8 +19,8 @@
 
 
 
-Java 8 has many new features and enhancements . In this repository we are going to learn Java 8 features but in diferent approach like 
-1stly we should solve our problem using Functional style, and then we convert it into imperative to understand the other java 8 features. 
+This repository focuses on exploring the various new features and enhancements introduced in Java 8. However, we take a different approach by first solving problems using the functional programming style, and then converting them into imperative solutions to gain a deeper understanding of other Java 8 features. By following this approach, we can grasp the benefits and nuances of functional programming in Java and explore how it can be leveraged effectively. 
+Join us on this journey as we dive into Java 8 and unlock its potential in a practical and insightful manner.
 
 ## Before Start
 
