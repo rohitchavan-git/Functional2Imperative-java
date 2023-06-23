@@ -72,7 +72,33 @@ Join us on this journey as we dive into Java 8 and unlock its potential in a pra
    ![](src/main/resources/counting.png)
 ####  **takeWhile**
    ![](src/main/resources/takeWhile.png)
-   
+
+## Summary   
+
+1. `filter`: The `filter` method in Java 8 streams allows you to apply a condition or predicate to elements in a
+   collection and retain only those elements that satisfy the condition. It is similar to an `if` condition that filters
+   elements based on a specific criterion.
+
+2. `map`: The `map` method in Java 8 streams transforms each element in a collection by applying a given function to it.
+   It is similar to using `get` to retrieve a value and then adding or putting the resultant transformed value into a
+   collection.
+
+3. `groupBy` collector using `map.computeIfAbsent()`: By using the `computeIfAbsent` method of the `Map` interface in
+   Java 8, you can implement a grouping operation where elements are grouped by a certain key. If the key is not present
+   in the map, a value can be computed using the provided mapping function (`Function<T, U>`). This allows you to create
+   groups in the form of a map with keys and associated values.
+
+4. `merge` method for implementing `groupBy` and `counting`: The `merge` method in Java 8 allows you to merge values
+   into a map using a specified key and an operation. It is commonly used for grouping and counting elements in a
+   collection. For example, you can merge values into a map where the key is a person's name, the initial value is 1,
+   and the operation is to sum the values if a duplicate key is encountered.
+
+5. Modifications in Java 8 `Map` collection: In Java 8, the `toMap` method in the `Collectors` class is used to create a
+   map from a stream. However, it has certain restrictions such as not allowing duplicate keys or values, as well as
+   disallowing null keys and values. To handle duplicate keys, you can provide a key conflict resolution strategy using
+   the third parameter of `Collectors.toMap`. This allows you to specify how to handle conflicts when two keys are the
+   same.
+
 ## Notes / Observation
 
 * [Java 8 I2F Notes ](https://notesdocs.app/share/cbA5UGGquaySPD4bSjSWy5yUqfHZAlO3llCW-Java-8-I2F-)
