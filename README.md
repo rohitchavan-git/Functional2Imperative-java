@@ -1,5 +1,5 @@
 # Java 8 Transition: From Functional Style to Imperative Paradigm
- Welcome to the "Java 8 Transition: From Functional Style to Imperative Paradigm" repository! In this repository, we embark on a journey to explore the transition from functional programming style to the imperative paradigm in Java 8.
+ Welcome to the **Java 8 Transition: From Functional Style to Imperative Paradigm** repository! In this repository, we embark on a journey to explore the transition from functional programming style to the imperative paradigm in Java 8.
  
  Java 8 introduced significant changes to the language, most notably the inclusion of lambda expressions, functional interfaces, and streams. These features empowered developers to embrace functional programming principles and write concise, expressive, and highly modular code.
  
