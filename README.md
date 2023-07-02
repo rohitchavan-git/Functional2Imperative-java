@@ -1,11 +1,11 @@
 # Java 8 Transition: From Functional Style to Imperative Paradigm
-Welcome to the "Java 8 Transition: From Functional Style to Imperative Paradigm" repository! In this repository, we embark on a journey to explore the transition from functional programming style to the imperative paradigm in Java 8.
-
-Java 8 introduced significant changes to the language, most notably the inclusion of lambda expressions, functional interfaces, and streams. These features empowered developers to embrace functional programming principles and write concise, expressive, and highly modular code.
-
-However, while functional programming offers numerous benefits, there are scenarios where the imperative style might be more suitable or preferred. This repository focuses on understanding and converting functional-style code into imperative code where it aligns better with the problem domain or improves readability and maintainability.
-
-By examining real-world examples and common functional programming patterns, we will explore how to transform code snippets to follow an imperative approach while leveraging the power of Java 8 features. We will discuss scenarios where mutable state, control flow, and explicit iteration are more suitable alternatives to functional constructs.
+ Welcome to the "Java 8 Transition: From Functional Style to Imperative Paradigm" repository! In this repository, we embark on a journey to explore the transition from functional programming style to the imperative paradigm in Java 8.
+ 
+ Java 8 introduced significant changes to the language, most notably the inclusion of lambda expressions, functional interfaces, and streams. These features empowered developers to embrace functional programming principles and write concise, expressive, and highly modular code.
+ 
+ However, while functional programming offers numerous benefits, there are scenarios where the imperative style might be more suitable or preferred. This repository focuses on understanding and converting functional-style code into imperative code where it aligns better with the problem domain or improves readability and maintainability.
+ 
+ By examining real-world examples and common functional programming patterns, we will explore how to transform code snippets to follow an imperative approach while leveraging the power of Java 8 features. We will discuss scenarios where mutable state, control flow, and explicit iteration are more suitable alternatives to functional constructs.
 <!-- TOC -->
 * [Learn Java 8 By Converting Functional Style Code Into Imperative](#learn-java-8-by-converting-functional-style-code-into-imperative)
   * [Before Start](#before-start)
