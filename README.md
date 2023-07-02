@@ -19,8 +19,25 @@
 
 
 
-This repository focuses on exploring the various new features and enhancements introduced in Java 8. However, we take a different approach by first solving problems using the functional programming style, and then converting them into imperative solutions to gain a deeper understanding of other Java 8 features. By following this approach, we can grasp the benefits and nuances of functional programming in Java and explore how it can be leveraged effectively. 
-Join us on this journey as we dive into Java 8 and unlock its potential in a practical and insightful manner.
+Java 8 Transition: From Functional Style to Imperative Paradigm
+
+Welcome to the "Java 8 Transition: From Functional Style to Imperative Paradigm" repository! In this repository, we embark on a journey to explore the transition from functional programming style to the imperative paradigm in Java 8.
+
+Java 8 introduced significant changes to the language, most notably the inclusion of lambda expressions, functional interfaces, and streams. These features empowered developers to embrace functional programming principles and write concise, expressive, and highly modular code.
+
+However, while functional programming offers numerous benefits, there are scenarios where the imperative style might be more suitable or preferred. This repository focuses on understanding and converting functional-style code into imperative code where it aligns better with the problem domain or improves readability and maintainability.
+
+By examining real-world examples and common functional programming patterns, we will explore how to transform code snippets to follow an imperative approach while leveraging the power of Java 8 features. We will discuss scenarios where mutable state, control flow, and explicit iteration are more suitable alternatives to functional constructs.
+
+Some of the topics covered in this repository include:
+
+1. Converting lambda expressions and functional interfaces to imperative methods and classes.
+2. Transitioning from streams and functional operations to imperative loops and conditionals.
+3. Managing mutable state and variables effectively in the imperative paradigm.
+4. Optimizing performance and resource management through imperative techniques.
+5. Handling exceptions and error conditions in an imperative manner.
+
+Join us in this exploration of the Java 8 transition, where we dive deep into the imperative paradigm, discuss its advantages, and learn how to effectively refactor and convert functional-style code into an imperative style. Together, let's broaden our understanding of Java 8 and enhance our programming skills by mastering both paradigms.
 
 ## Before Start
 
